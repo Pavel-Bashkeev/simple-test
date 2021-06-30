@@ -30,3 +30,12 @@
 		margin-bottom: 33px;
 	}
 }
+
+@media (max-width: 560px) {
+	.hero {
+		&__title {
+			font: 700 60px / 72px 'Roboto';
+			margin-bottom: 26px;
+		}
+	}
+}
