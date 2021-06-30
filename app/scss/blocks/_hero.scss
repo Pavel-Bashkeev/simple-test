@@ -1,0 +1,32 @@
+.hero {
+	max-height: 495px;
+	min-height: 400px;
+	background-image: url(../images/dest/hero.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		text-align: center;
+	}
+
+	&__title {
+		font: 700 70px / 82px 'Roboto';
+		margin-bottom: 26px;
+	}
+
+	&__subtitle {
+		font-style: italic;
+		font: 400 40px / 47px 'Roboto';
+		margin-bottom: 33px;
+	}
+}
